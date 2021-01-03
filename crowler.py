@@ -1,8 +1,8 @@
 import requests
  
-url = "https://www.sejuku.net/blog/"
+url = "https://product.starbucks.co.jp/goods/tumbler/4524785332171/?category=goods%2Ftumbler"
  
 response = requests.get(url)
-response.encoding = response.apparent_encoding
+
  
-print(response.text)
+print(response)
