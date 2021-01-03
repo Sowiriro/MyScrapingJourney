@@ -5,4 +5,4 @@ url = "https://product.starbucks.co.jp/goods/tumbler/4524785332171/?category=goo
 response = requests.get(url)
 
  
-print(response)
+print(response.url)
